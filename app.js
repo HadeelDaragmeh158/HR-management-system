@@ -14,16 +14,12 @@ function getRandom(min, max) {
 function netSalary(nsal) {
     return nsal * (7.5 / 100);
 }
-
-
+//////////////
 Employee.prototype.render = function () {
     document.write(`<p>    the employee    ${this.FullName}    will added    </p>`);
 }
 
-
-
-
-
+/////////////
 const somth = new Employee(null, " ", ["Administration", "Marketing", "Development", "Finance"],
     ["Junior", "Mid-Senior", "Senior"], " ", 0);
 
