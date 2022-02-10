@@ -119,3 +119,37 @@
         text-align: left;
         padding:3px 5px;
       }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 10px; 
+      }
+      
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        padding: 2px 16px;
+        background-color: blueviolet;
+      }
+      #imgurl{
+        width:100px;
+    height: 100px;
+    }
+      
+      .container {
+        padding: 2px 16px;
+      }
+/* 
+      #Employees{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 10px; 
+    }
+       */
